@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Navakanth Boyina profile placeholder">
+  <rect width="1200" height="630" fill="#080b12"/>
+  <rect x="72" y="72" width="1056" height="486" rx="42" fill="#101827" stroke="#334155"/>
+  <circle cx="260" cy="315" r="116" fill="#121c2b" stroke="#38bdf8" stroke-width="8"/>
+  <text x="260" y="343" text-anchor="middle" font-family="Arial, sans-serif" font-size="92" font-weight="700" fill="#38bdf8">NB</text>
+  <text x="430" y="282" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#f8fafc">Navakanth Boyina</text>
+  <text x="430" y="350" font-family="Arial, sans-serif" font-size="34" fill="#a9b7c7">Dynamics 365 CRM &amp; Power Platform Developer</text>
+  <text x="430" y="410" font-family="Arial, sans-serif" font-size="28" fill="#38bdf8">Dataverse | C# | PCF | Azure Integrations</text>
+</svg>
