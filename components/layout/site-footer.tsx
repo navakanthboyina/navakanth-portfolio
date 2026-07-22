@@ -17,7 +17,7 @@ export function SiteFooter({ profile }: SiteFooterProps) {
           <p className="text-base font-semibold text-[var(--text)]">{profile.name}</p>
           <p className="mt-1 text-sm text-[var(--muted)]">{profile.role}</p>
           <p className="mt-2 text-xs text-[var(--muted)]">
-            © {year} {profile.name}. Built with Next.js and TypeScript.
+            © {year} {profile.name}.
           </p>
         </div>
 

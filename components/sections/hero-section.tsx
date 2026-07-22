@@ -17,7 +17,7 @@ export function HeroSection({ profile }: HeroSectionProps) {
         <FadeIn className="max-w-4xl">
           <div className="inline-flex items-center gap-2 rounded-md border border-[var(--line)] bg-[var(--surface)] px-3 py-1.5 text-sm text-[var(--muted)]">
             <Radio aria-hidden="true" size={16} className="text-[var(--accent-green)]" />
-            {profile.availability}
+            {profile.availability} · {profile.relocation}
           </div>
           <p className="mt-8 text-base font-semibold text-[var(--accent-cyan)]">{profile.name}</p>
           <h1 className="mt-4 max-w-4xl text-4xl font-semibold tracking-normal text-[var(--text)] sm:text-6xl lg:text-7xl">
@@ -35,6 +35,8 @@ export function HeroSection({ profile }: HeroSectionProps) {
             </span>
             <span className="hidden h-1 w-1 rounded-full bg-[var(--muted)] sm:block" />
             <span>{profile.experienceSummary}</span>
+            <span className="hidden h-1 w-1 rounded-full bg-[var(--muted)] sm:block" />
+            <span>{profile.relocation}</span>
           </div>
 
           <div className="mt-8 flex flex-wrap gap-3">

@@ -75,7 +75,7 @@ gh api --method POST repos/navakanthboyina/navakanth-portfolio/pages -f build_ty
 If GitHub CLI is not installed, create a public repository named `navakanth-portfolio` at GitHub.com, then run:
 
 ```bash
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/navakanth-portfolio.git
+git remote add origin https://github.com/navakanthboyina/navakanth-portfolio.git
 git branch -M main
 git push -u origin main
 ```
@@ -109,10 +109,10 @@ gh api --method POST repos/navakanthboyina/navakanth-portfolio/pages -f build_ty
 
 If the command returns a conflict because Pages is already configured, use the repository Settings page and confirm Source is set to `GitHub Actions`.
 
-The expected URL pattern is:
+The live portfolio URL is:
 
 ```text
-https://YOUR_GITHUB_USERNAME.github.io/navakanth-portfolio/
+https://navakanthboyina.github.io/navakanth-portfolio/
 ```
 
 ## Repository Name and Base Path
@@ -140,7 +140,6 @@ Most editable content lives in `data/`:
 - `data/experience.ts` - editable professional experience timeline
 - `data/projects.ts` - project cards and project detail content
 - `data/skills.ts` - categorized technical skills
-- `data/certifications.ts` - certification names and statuses
 - `data/education.ts` - education entries
 - `data/architecture.ts` - architecture diagram nodes
 
@@ -152,12 +151,12 @@ Edit `data/profile.ts`:
 
 ```ts
 social: {
-  github: "YOUR_GITHUB_URL",
-  linkedin: "YOUR_LINKEDIN_URL"
+  github: "https://github.com/navakanthboyina",
+  linkedin: "https://www.linkedin.com/in/navakanth-b-b26a29208/"
 }
 ```
 
-Replace those placeholders with your real URLs. Placeholder links are intentionally disabled in the UI to avoid broken links.
+Update these if your social profile URLs change later.
 
 ## Replace the Resume
 
@@ -174,10 +173,10 @@ with your latest resume PDF. Keep the same file name unless you also update `res
 Add an image to `public/images/`, then update `data/profile.ts`:
 
 ```ts
-headshotPath: "/images/navakanth-headshot.jpg"
+headshotPath: "/images/navakanth-boyina-headshot.jpg"
 ```
 
-Until then, the site shows a professional `NB` initials avatar.
+If `headshotPath` is blank, the site falls back to a professional `NB` initials avatar.
 
 ## Update Experience
 
@@ -208,18 +207,6 @@ Edit `data/projects.ts` and add a new object with:
 - Key technical decisions
 
 Avoid client names, confidential information, financial savings, performance percentages, or metrics unless you can publish them.
-
-## Add Certifications
-
-Edit `data/certifications.ts`.
-
-Supported statuses:
-
-- `Completed`
-- `In Progress`
-- `Planned`
-
-Initial entries are intentionally set to `In Progress` or `Planned` until you confirm completion.
 
 ## Custom Domain
 

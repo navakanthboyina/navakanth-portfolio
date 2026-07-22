@@ -5,20 +5,18 @@ export const profile = {
   initials: "NB",
   role: "Dynamics 365 CRM & Power Platform Developer",
   headline: "Dynamics 365 CRM & Power Platform Developer",
-  location: "Irving, Texas, USA",
+  location: "USA",
   availability: "Open to Opportunities",
+  relocation: "Open to relocation",
   experienceSummary: "6+ years of professional experience",
   email: "navakanth.boyina@gmail.com",
   repositoryName,
   portfolioUrl,
   resumePath: "/resume/Navakanth_Boyina_Resume.pdf",
-  // TODO: Replace this with a real professional headshot path, for example "/images/navakanth-headshot.jpg".
-  headshotPath: "",
+  headshotPath: "/images/navakanth-boyina-headshot.jpg",
   social: {
-    // TODO: Add your GitHub URL.
-    github: "YOUR_GITHUB_URL",
-    // TODO: Add your LinkedIn URL.
-    linkedin: "YOUR_LINKEDIN_URL"
+    github: "https://github.com/navakanthboyina",
+    linkedin: "https://www.linkedin.com/in/navakanth-b-b26a29208/"
   },
   seo: {
     title: "Navakanth Boyina | Dynamics 365 CRM & Power Platform Developer",
@@ -37,8 +35,7 @@ export const profile = {
       "Power Automate"
     ],
     canonicalUrl: portfolioUrl,
-    // TODO: Replace this with the public URL of your headshot after adding one.
-    profileImageUrl: `${portfolioUrl}images/profile-placeholder.svg`
+    profileImageUrl: `${portfolioUrl}images/navakanth-boyina-headshot.jpg`
   },
   techLine: [
     "Dynamics 365",
@@ -57,7 +54,6 @@ export const navItems = [
   { id: "experience", label: "Experience" },
   { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
-  { id: "certifications", label: "Certifications" },
   { id: "education", label: "Education" },
   { id: "contact", label: "Contact" }
 ] as const;

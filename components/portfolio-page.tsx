@@ -12,7 +12,6 @@ import { ExperienceSection } from "@/components/sections/experience-section";
 import { SkillsSection } from "@/components/sections/skills-section";
 import { ProjectsSection } from "@/components/sections/projects-section";
 import { ArchitectureSection } from "@/components/sections/architecture-section";
-import { CertificationsSection } from "@/components/sections/certifications-section";
 import { EducationSection } from "@/components/sections/education-section";
 import { ResumeSection } from "@/components/sections/resume-section";
 import { ContactSection } from "@/components/sections/contact-section";
@@ -21,7 +20,7 @@ import { BackToTop } from "@/components/ui/back-to-top";
 export function PortfolioPage() {
   const [activeSection, setActiveSection] = useState("home");
   const observerIds = useMemo(
-    () => ["home", "about", "experience", "skills", "projects", "certifications", "education", "contact"],
+    () => ["home", "about", "experience", "skills", "projects", "education", "contact"],
     []
   );
 
@@ -61,7 +60,6 @@ export function PortfolioPage() {
         <SkillsSection />
         <ProjectsSection projects={projects} />
         <ArchitectureSection />
-        <CertificationsSection />
         <EducationSection />
         <ResumeSection />
         <ContactSection profile={profile} />

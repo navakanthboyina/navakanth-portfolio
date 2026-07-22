@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     images: [
       {
         url: profile.seo.profileImageUrl,
-        width: 1200,
-        height: 630,
-        alt: `${profile.name} portfolio profile image placeholder`
+        width: 600,
+        height: 600,
+        alt: `${profile.name} profile photo`
       }
     ]
   },
@@ -67,8 +67,6 @@ export default function RootLayout({
     email: profile.email,
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Irving",
-      addressRegion: "Texas",
       addressCountry: "US"
     },
     url: profile.portfolioUrl,

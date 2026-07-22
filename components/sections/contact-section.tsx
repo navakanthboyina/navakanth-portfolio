@@ -27,7 +27,7 @@ export function ContactSection({ profile }: ContactSectionProps) {
         <SectionHeading
           eyebrow="Contact"
           title="Ready for Dynamics 365 and Power Platform opportunities."
-          description="Available for full-time and contract conversations involving CRM development, Dataverse, automation, integrations, and Azure-connected solutions."
+          description="Available for full-time and contract conversations involving CRM development, Dataverse, automation, integrations, Azure-connected solutions, and relocation opportunities."
         />
 
         <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
@@ -36,6 +36,7 @@ export function ContactSection({ profile }: ContactSectionProps) {
               <ContactRow icon={<Mail aria-hidden="true" size={18} />} label="Email" value={profile.email} />
               <ContactRow icon={<MapPin aria-hidden="true" size={18} />} label="Location" value={profile.location} />
               <ContactRow icon={<Radio aria-hidden="true" size={18} />} label="Availability" value={profile.availability} />
+              <ContactRow icon={<MapPin aria-hidden="true" size={18} />} label="Relocation" value={profile.relocation} />
               <ContactRow icon={<BriefcaseBusiness aria-hidden="true" size={18} />} label="LinkedIn" value={profile.social.linkedin} />
               <ContactRow icon={<Code2 aria-hidden="true" size={18} />} label="GitHub" value={profile.social.github} />
             </dl>
