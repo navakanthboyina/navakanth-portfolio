@@ -73,7 +73,7 @@ export const experience: ExperienceItem[] = [
   {
     company: "P2P Softtek LLC",
     jobTitle: "MS Dynamics CRM Senior Consultant",
-    location: "USA",
+    location: "India",
     startDate: "March 2019",
     endDate: "December 2021",
     summary:
