@@ -15,7 +15,7 @@ export function AboutSection() {
           <FadeIn className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 sm:p-8">
             <div className="space-y-5 text-base leading-8 text-[var(--muted)]">
               <p>
-                I am a Microsoft Dynamics 365 CRM developer and Azure Software Engineer with more
+                I am a Microsoft Dynamics 365 CRM developer and Software Engineer with more
                 than six years of experience designing, developing, integrating, migrating, and
                 supporting enterprise CRM solutions.
               </p>
