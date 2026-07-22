@@ -10,8 +10,8 @@ export function ExperienceSection() {
       <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Experience"
-          title="Editable professional timeline."
-          description="The structure is ready for real employer names, dates, titles, and project details."
+          title="Professional experience in Dynamics 365 delivery."
+          description="Recent CRM, Power Platform, Azure integration, migration, and enterprise support work."
         />
 
         <div className="relative grid gap-6">
@@ -26,7 +26,6 @@ export function ExperienceSection() {
                 <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
                   <div>
                     <div className="flex flex-wrap items-center gap-2">
-                      {item.editable ? <Tag tone="violet">Editable Placeholder</Tag> : null}
                       <Tag tone="cyan">{item.jobTitle}</Tag>
                     </div>
                     <h3 className="mt-4 text-2xl font-semibold tracking-normal text-[var(--text)]">

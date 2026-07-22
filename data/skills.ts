@@ -40,13 +40,17 @@ export const skillCategories: SkillCategory[] = [
       "Custom APIs",
       "JavaScript",
       "TypeScript",
+      "jQuery",
       "HTML",
       "CSS",
+      "AJAX",
       "Web Resources",
       "Ribbon and Command Bar Customization",
       "PCF Controls",
       "REST APIs",
-      "OData"
+      "OData",
+      "SOAP",
+      "CRM SDK"
     ]
   },
   {
@@ -59,22 +63,26 @@ export const skillCategories: SkillCategory[] = [
       "Power Automate",
       "Power Pages",
       "Power BI",
+      "PCF",
       "AI Builder",
       "Microsoft Copilot Studio"
     ]
   },
   {
-    name: "Microsoft Azure",
-    description: "Cloud-hosted integrations, identity, observability, and secure configuration.",
+    name: "Azure and DevOps",
+    description: "Cloud integrations, managed identity, data movement, and deployment support.",
     skills: [
       "Azure Functions",
       "Azure Logic Apps",
       "Azure Service Bus",
       "Azure App Service",
+      "Azure Data Factory",
+      "Azure Storage",
       "Microsoft Entra ID",
       "Managed Identity",
       "Azure Key Vault",
       "Application Insights",
+      "Azure SQL Database",
       "Azure DevOps"
     ]
   },
@@ -83,6 +91,11 @@ export const skillCategories: SkillCategory[] = [
     description: "Migration, API integration, validation, and controlled data movement.",
     skills: [
       "SQL Server",
+      "Azure SQL Database",
+      "T-SQL",
+      "Joins",
+      "Views",
+      "Stored Procedures",
       "SSIS",
       "KingswaySoft",
       "Data Migration Tool",
@@ -110,6 +123,8 @@ export const skillCategories: SkillCategory[] = [
       "XrmToolBox",
       "Postman",
       "Dataverse REST Builder",
+      "CRM REST Builder",
+      "Ribbon Workbench",
       "Solution Packager"
     ]
   }

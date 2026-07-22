@@ -10,7 +10,7 @@ export function ArchitectureSection() {
         <SectionHeading
           eyebrow="Architecture"
           title="Integration flows at a glance."
-          description="Responsive HTML and CSS diagrams, built without external diagram services."
+          description="Selected CRM integration, migration, and automation patterns from Dynamics 365 delivery work."
         />
 
         <div className="grid gap-5">

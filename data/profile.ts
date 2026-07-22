@@ -3,8 +3,8 @@ import { portfolioUrl, repositoryName } from "@/site.config";
 export const profile = {
   name: "Navakanth Boyina",
   initials: "NB",
-  role: "Dynamics 365 CRM & Power Platform Developer",
-  headline: "Dynamics 365 CRM & Power Platform Developer",
+  role: "Dynamics 365 CRM Developer & Azure Software Engineer",
+  headline: "Dynamics 365 CRM Developer & Azure Software Engineer",
   location: "USA",
   availability: "Open to Opportunities",
   relocation: "Open to relocation",
@@ -19,9 +19,9 @@ export const profile = {
     linkedin: "https://www.linkedin.com/in/navakanth-b-b26a29208/"
   },
   seo: {
-    title: "Navakanth Boyina | Dynamics 365 CRM & Power Platform Developer",
+    title: "Navakanth Boyina | Dynamics 365 CRM Developer & Azure Software Engineer",
     description:
-      "Portfolio of Navakanth Boyina, a Dynamics 365 CRM and Power Platform developer specializing in Dataverse, C# plugins, PCF controls, Power Automate, and Azure integrations.",
+      "Portfolio of Navakanth Boyina, a Dynamics 365 CRM developer and Azure Software Engineer specializing in Dataverse, C# plugins, PCF controls, Power Automate, SQL Server, and Azure integrations.",
     keywords: [
       "Navakanth Boyina",
       "Dynamics 365 CRM Developer",
@@ -42,9 +42,9 @@ export const profile = {
     "Power Platform",
     "Dataverse",
     "C#",
-    "JavaScript",
     "TypeScript",
-    "Azure"
+    "Azure",
+    "SQL Server"
   ]
 } as const;
 

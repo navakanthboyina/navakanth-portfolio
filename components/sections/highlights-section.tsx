@@ -14,7 +14,7 @@ const highlights = [
   },
   {
     title: "Enterprise Azure Integrations",
-    description: "Azure Functions, Logic Apps, Service Bus, REST APIs, identity, and observability.",
+    description: "Azure Functions, Logic Apps, Service Bus, REST APIs, SQL, and integration logging.",
     icon: CloudCog
   },
   {

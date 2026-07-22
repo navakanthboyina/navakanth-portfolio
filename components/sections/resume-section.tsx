@@ -22,8 +22,8 @@ export function ResumeSection() {
                     Download Navakanth Boyina&apos;s resume
                   </h2>
                   <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--muted)]">
-                    The file path is configured for GitHub Pages static export and can be replaced
-                    with the latest PDF at any time.
+                    Review a concise overview of my Dynamics 365 CRM, Power Platform,
+                    Dataverse, C#, SQL Server, and Azure integration experience.
                   </p>
                 </div>
               </div>

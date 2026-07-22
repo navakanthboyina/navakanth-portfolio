@@ -15,15 +15,15 @@ export function AboutSection() {
           <FadeIn className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-6 sm:p-8">
             <div className="space-y-5 text-base leading-8 text-[var(--muted)]">
               <p>
-                I am a Microsoft Dynamics 365 CRM and Power Platform developer with more than six
-                years of experience designing, developing, integrating, migrating, and supporting
-                enterprise CRM solutions.
+                I am a Microsoft Dynamics 365 CRM developer and Azure Software Engineer with more
+                than six years of experience designing, developing, integrating, migrating, and
+                supporting enterprise CRM solutions.
               </p>
               <p>
                 My work includes Dynamics 365 Sales, model-driven applications, Dataverse
                 architecture, C# plugins, JavaScript customizations, PCF controls, Custom APIs,
-                Power Automate, Azure Functions, Azure Service Bus, Logic Apps, REST APIs, data
-                migration, ALM, and production support.
+                Power Automate, Azure Functions, Azure Service Bus, Logic Apps, REST APIs, SQL
+                Server, Azure SQL Database, data migration, ALM, and production support.
               </p>
               <p>
                 I collaborate with business analysts, architects, product owners, QA engineers,

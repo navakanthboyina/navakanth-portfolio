@@ -13,7 +13,7 @@ export default function NotFound() {
           This portfolio page is not available.
         </h1>
         <p className="max-w-2xl text-lg text-[var(--muted)]">
-          The page may have moved, or the link may need the GitHub Pages repository path.
+          The page may have moved, or the link may no longer be active.
         </p>
         <Link
           href="/"

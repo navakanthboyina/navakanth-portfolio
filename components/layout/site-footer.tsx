@@ -21,23 +21,23 @@ export function SiteFooter({ profile }: SiteFooterProps) {
           </p>
         </div>
 
-        <div className="flex items-center gap-2">
-          <FooterIcon href={profile.social.github} label="GitHub">
+        <div className="flex flex-wrap items-center gap-2">
+          <FooterLink href={profile.social.github} label="GitHub">
             <Code2 aria-hidden="true" size={18} />
-          </FooterIcon>
-          <FooterIcon href={profile.social.linkedin} label="LinkedIn">
+          </FooterLink>
+          <FooterLink href={profile.social.linkedin} label="LinkedIn">
             <BriefcaseBusiness aria-hidden="true" size={18} />
-          </FooterIcon>
-          <FooterIcon href={createMailto(profile.email)} label="Email">
+          </FooterLink>
+          <FooterLink href={createMailto(profile.email)} label="Email">
             <Mail aria-hidden="true" size={18} />
-          </FooterIcon>
+          </FooterLink>
         </div>
       </div>
     </footer>
   );
 }
 
-function FooterIcon({
+function FooterLink({
   href,
   label,
   children
@@ -54,13 +54,13 @@ function FooterIcon({
       target={href.startsWith("http") && !disabled ? "_blank" : undefined}
       rel={href.startsWith("http") && !disabled ? "noreferrer" : undefined}
       aria-disabled={disabled}
-      aria-label={label}
       title={disabled ? "Update this URL in data/profile.ts" : label}
-      className={`grid h-10 w-10 place-items-center rounded-md border border-[var(--line)] bg-[var(--surface)] text-[var(--muted)] transition hover:border-[var(--accent-cyan)] hover:text-[var(--text)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent-cyan)] ${
+      className={`inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-[var(--line)] bg-[var(--surface)] px-3 py-2 text-sm font-semibold text-[var(--muted)] transition hover:border-[var(--accent-cyan)] hover:text-[var(--text)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent-cyan)] ${
         disabled ? "pointer-events-none opacity-55" : ""
       }`}
     >
       {children}
+      <span>{label}</span>
     </a>
   );
 }
